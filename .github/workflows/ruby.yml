@@ -30,4 +30,4 @@ jobs:
         with:
           ruby-version: ${{ matrix.ruby-version }}
       - name: Run tests
-        run: ruby test/test_parity_pro.rb
+        run: ruby test/test_parity_prop.rb
